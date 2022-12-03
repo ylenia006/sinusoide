@@ -9,9 +9,18 @@
 
 	<div>
 		<form>
-			<input type="range" name="ampiezza" min="1" max="100" step="10">
-			<input type="range" name="frequenza" min="1" max="10" step="1">
-			<input type="range" name="fase" min="-100" max="100" step="10">
+			<div>
+				<h3> Ampiezza </h3>
+				<input type="range" name="ampiezza" value="100" min="1" max="100" step="10">
+			</div>
+			<div>
+				<h3> Frequenza </h3>
+				<input type="range" name="frequenza" value="1" min="1" max="10" step="2">
+			</div>
+			<div>
+				<h3> Fase </h3>
+				<input type="range" name="fase" value="0" min="-100" max="100" step="10">
+			</div>
 		</form>
 	</div>
 	<script type="text/javascript" src="./static/js/functionSinusoide.js"></script>

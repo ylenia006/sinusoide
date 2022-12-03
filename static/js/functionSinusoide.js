@@ -1,22 +1,22 @@
-let amplitudeInput = document.querySelector("[name=ampiezza]")
+let ampiezzaInput = document.querySelector("[name=ampiezza]")
 
-		amplitudeInput.addEventListener("input", function(e){
-			console.log(`amplitude changed -> ${amplitudeInput.value}`)
-			ampiezza = amplitudeInput.value
+		ampiezzaInput.addEventListener("input", function(e){
+			console.log(`ampiezza changed -> ${ampiezzaInput.value}`)
+			ampiezza = parseInt(ampiezzaInput.value)
 		})			
 
 
-let frequencyInput = document.querySelector("[name=frequenza]")
+let frequenzaInput = document.querySelector("[name=frequenza]")
 
-		frequencyInput.addEventListener("input", function(e){
-			console.log(`frequency changed -> ${frequencyInput.value}`)
-			frequenza = frequencyInput.value
+		frequenzaInput.addEventListener("input", function(e){
+			console.log(`frequency changed -> ${frequenzaInput.value}`)
+			frequenza = parseFloat(frequenzaInput.value)
 		})
 
 
-let fase = document.querySelector("[name=fase]")
+let faseInput = document.querySelector("[name=fase]")
 
-		fase.addEventListener("input", function(e){
-			console.log(`fase changed -> ${fase.value}`)
-			fase = fase.value
+		faseInput.addEventListener("input", function(e){
+			console.log(`fase changed -> ${faseInput.value}`)
+			fase = parseInt(faseInput.value)
 		})
